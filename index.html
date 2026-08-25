@@ -153,6 +153,10 @@
   .kpi .ctx{font-size:11.5px;color:var(--ink-faint);margin-top:4px;font-family:'JetBrains Mono',monospace;}
   @media (max-width:860px){.kpi-grid{grid-template-columns:repeat(2,1fr);}}
   @media (max-width:520px){.kpi-grid{grid-template-columns:1fr;}}
+  /* 온사이트 섹션(바비톡 02)만 3열 그리드로 표시 — 카드 6개가 3x2로 빈칸 없이 채워짐 */
+  #onsite .kpi-grid{grid-template-columns:repeat(3,1fr);}
+  @media (max-width:860px){#onsite .kpi-grid{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:520px){#onsite .kpi-grid{grid-template-columns:1fr;}}
 
   /* ---------- Case studies ---------- */
   .case{
